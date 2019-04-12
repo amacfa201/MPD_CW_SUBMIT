@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MPD Earthquake App</string>
+    <string name="disclaimer">Contains British Geological Survey materials ©NERC 2019</string>
+    <string-array name="SortOptions">
+        <item>Sort By...</item>
+        <item>Depth Low-Hi</item>
+        <item>Depth Hi-Low</item>
+        <item>Location A-Z</item>
+        <item>Location Z-A</item>
+        <item>Magnitude Low-Hi</item>
+        <item>Magnitude Hi-Low</item>
+        <item>North-South</item>
+        <item>South-North</item>
+        <item>East/West</item>
+        <item>West/East</item>
+    </string-array><string-array name="OrderOptions">
+
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+
+
+</resources>

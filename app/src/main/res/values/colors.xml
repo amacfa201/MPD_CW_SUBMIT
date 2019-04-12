@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--// Name                 Andrew MacFarlane-->
+<!--// Student ID           S1511223-->
+<!--// Programme of Study   Computer Games(Software Development)-->
+<!--//-->
+<resources>
+    <color name="colorPrimary">#E40B2C</color>
+    <color name="colorPrimaryDark">#E40B2C</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#686363</color>
+    <color name="lightgrey">#B4B3B3</color>
+
+
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--// Name                 Andrew MacFarlane-->
+<!--// Student ID           S1511223-->
+<!--// Programme of Study   Computer Games(Software Development)-->
+<!--//-->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="@color/black">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/textViewHead"
+                android:layout_width="388dp"
+                android:layout_height="wrap_content"
+
+                android:text="Location"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/white">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textViewMag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingRight="50dp"
+                android:text="Mag"
+                android:textColor="@color/white"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp">
+
+            </TextView>
+
+            <!--<TextView-->
+                <!--android:id="@+id/textViewTime"-->
+                <!--android:layout_width="76dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="right"-->
+                <!--android:text="Time"-->
+                <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large">-->
+
+            <!--</TextView>-->
+
+            <TextView
+                android:id="@+id/textViewDesc"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+
+                android:text="Date and Time"
+                android:textSize="15dp"
+                android:textColor="@color/lightgrey"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>
